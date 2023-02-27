@@ -1,2 +1,2 @@
-# data-structures-algorithms
-Notes and small programs I wrote when learning DSA
+# Zichen's Technical Interview Repository
+

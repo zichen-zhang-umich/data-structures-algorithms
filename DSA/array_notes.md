@@ -1,2 +1,2 @@
-# Linked Lists
+# Array
 

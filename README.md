@@ -16,6 +16,8 @@ This repository serves as a collection of the notes and codes on the topics of *
 
 ### Array
 
-26. [Remove Duplicates from Sorted Array]()
-27. [Remove Element]()
-80. [Remove Duplicates from Sorted Array II]()
+26. [Remove Duplicates from Sorted Array](https://github.com/zichen-zhang-umich/tech-interview-prep/blob/main/LeetCode/array/26_Remove_Duplicates_from_Sorted_Array.md)
+27. [Remove Element](https://github.com/zichen-zhang-umich/tech-interview-prep/blob/main/LeetCode/array/27_Remove_Element.md)
+80. [Remove Duplicates from Sorted Array II](https://github.com/zichen-zhang-umich/tech-interview-prep/blob/main/LeetCode/array/80_Remove_Duplicates_from_Sorted_Array_II.md)
+
+### String

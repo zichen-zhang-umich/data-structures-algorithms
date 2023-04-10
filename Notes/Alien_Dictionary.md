@@ -1,4 +1,4 @@
-###Alien Dictioanry
+### Alien Dictioanry
 
 *核心知识点：拓扑排序，深度优先搜索*
 
@@ -49,7 +49,7 @@ You don't need to read or print anything. Your task is to complete the function 
 
 **My Solution:**
 ```C++
-class Solution{
+class Solution {
 public:
     string findOrder(string dict[], int N, int K) {
         //create a graph

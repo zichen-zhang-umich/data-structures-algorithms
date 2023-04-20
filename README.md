@@ -6,12 +6,30 @@ This repository serves as a collection of my personal notes on the topics of **d
 
 # Sorting Algorithms
 
-# Tree Algorithms
+# Tree
 
 ## Depth-First Search (DFS)
 ### Inorder Traversal
-This topic is tested in *LC 94. Binary Tree Inorder Traversal.*
+This topic relates to *LC 94. Binary Tree Inorder Traversal.*
 #### Recursive Approach
+```C++
+class Solution {
+public:
+    vector<int> res;
+
+    vector<int> inorderTraversal(TreeNode* root) {
+        inorder_helper(root);
+        return res;
+    }
+
+    void inorder_helper(TreeNode* root) {
+        if (!root) return;
+        inorder(root->left);
+        res.push_back(root->val); // process the curr node
+        inorder(root->left);
+    }
+}
+```
 #### Iterative Approach
 ```C++
 class Solution {
@@ -27,7 +45,7 @@ public:
             }
             root = stk.back();
             stk.pop_back();
-            res.push_back(root->val);
+            res.push_back(root->val); // process the curr node
             root = root->right;
         }
         return res;
@@ -65,6 +83,7 @@ public:
         }
         return res;
     }
+    
     TreeNode* findRightMostNode(TreeNode* root, TreeNode* curNode) {
         while (root->right && root->right != curNode) {
             root = root->right;
@@ -74,9 +93,32 @@ public:
 }
 ```
 
-## Breath-First Search (BFS)
+## Level-Order Traversal (Breath-First Search, BFS)
+```C++
+class Solution {
+public:
+    vector<int> res;
 
-# Graph Algorithms
+    void level_order(Node* root) {
+        if (!root) return;
+        deque<Node*> bfs; // or we can use std::queue
+        bfs.push_back(root);
+        while (!bfs.empty()) {
+            Node* curr = bfs.front();
+            bfs.pop();
+            res.push_back(curr->val); // process the curr node
+            if (curr->left) {
+                bfs.push_back(curr->left);
+            }
+            if (curr->right) {
+                bfs.push_back(curr->right);
+            }
+        }
+        return res;
+    }
+}
+
+# Graph
 
 ## Depth-First Search (DFS)
 

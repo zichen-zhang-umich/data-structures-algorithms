@@ -1,8 +1,8 @@
 <div align="center">
 <h1>Common DSA Implementation Cheatsheet</h1>
-<h2>Zichen Zhang</h2>
-This repository serves as a collection of my personal notes on the topics of data structures & algroithms, LeetCode problems and behavioral questions. Some of the codes are written by me and some of them are from other users with direct links/references to their original works. The following is the cheatsheet that records some of the most common operations on important data structures and algorithms. The majority of the codes were written in C++.
 </div>
+
+This repository serves as a collection of my personal notes on the topics of **data structures & algroithms, LeetCode problems and behavioral questions**. Some of the codes are written by me and some of them are from other users with direct links/references to their original works. The following is the ***cheatsheet*** that records some of the most common operations on important data structures and algorithms. The majority of the codes were written in `C++`.
 
 # Sorting Algorithms
 
@@ -10,7 +10,7 @@ This repository serves as a collection of my personal notes on the topics of dat
 
 ## Depth-First Search (DFS)
 ### Inorder Traversal
-Tested in `LC 94. Binary Tree Inorder Traversal`
+This topic is tested in *LC 94. Binary Tree Inorder Traversal.*
 #### Recursive Approach
 #### Iterative Approach
 ```C++

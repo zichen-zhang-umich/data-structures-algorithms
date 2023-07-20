@@ -1,16 +1,19 @@
 <div align="center">
 <h1>Common DSA Implementation Cheatsheet</h1>
 </div>
+Last Updated **Jul 2023**
 
 This repository serves as a collection of my personal notes on the topics of **data structures & algroithms, LeetCode problems and behavioral questions**. Some of the codes are written by me and some of them are from other users with direct links/references to their original works. The following is the ***cheatsheet*** that records some of the most common operations on important data structures and algorithms. The majority of the codes were written in C++.
 
-# Sorting Algorithms
-## Quicksort
-This divide-and-conquer algorithm is **not stable** and **not adaptive**. The overall efficiency depends on which `pivot` is selected.
 
-| Best Time | Average Time | Worst Time | Space |
-| ----------- | ----------- |----------- | ----------- |
-| $\Theta(nlog(n))$ | $\Theta(nlog(n))$ | $\Theta(n^2)$ | $\Theta(log(n))$ |
+
+# Sorting Algorithms
+
+
+
+## Quicksort
+
+This divide-and-conquer algorithm is **not stable** and **not adaptive**. The overall efficiency depends on which `pivot` is selected.
 
 ```C++
 class Solution {
@@ -53,9 +56,14 @@ public:
 };
 ```
 
+
+
 # Tree
 
-## Depth-First Search (DFS)
+
+
+## Depth-First Search
+
 ### Inorder Traversal
 This topic relates to *LC 94. Binary Tree Inorder Traversal.*
 #### Recursive Approach
@@ -140,7 +148,10 @@ public:
 }
 ```
 
-## Level-Order Traversal (Breath-First Search, BFS)
+
+
+## Level-Order Traversal (Breath-First Search)
+
 ```C++
 class Solution {
 public:
@@ -166,9 +177,15 @@ public:
 }
 ```
 
+
+
 # Graph
 
+
+
 ## Depth-First Search (DFS)
+
+
 
 ## Breath-First Search (BFS)
 
